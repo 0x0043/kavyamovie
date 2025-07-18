@@ -132,25 +132,8 @@ export default function KavyaFilmWebsite() {
       {/* Footer */}
       <footer className="py-12 px-6 md:px-12 lg:px-20 bg-stone-800 text-stone-300">
         <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
-            <div className="text-center md:text-left">
-              <p className="text-sm">© 2024 Kavya Film Productions. All Rights Reserved.</p>
-            </div>
-
-            <div className="flex space-x-6">
-              <a href="#" className="text-stone-400 hover:text-stone-200 transition-colors duration-300">
-                <Instagram size={20} />
-                <span className="sr-only">Instagram</span>
-              </a>
-              <a href="#" className="text-stone-400 hover:text-stone-200 transition-colors duration-300">
-                <Facebook size={20} />
-                <span className="sr-only">Facebook</span>
-              </a>
-              <a href="#" className="text-stone-400 hover:text-stone-200 transition-colors duration-300">
-                <Youtube size={20} />
-                <span className="sr-only">YouTube</span>
-              </a>
-            </div>
+          <div className="text-center">
+            <p className="text-sm">© 2024 Royal Entertainment Productions. All Rights Reserved.</p>
           </div>
         </div>
       </footer>
